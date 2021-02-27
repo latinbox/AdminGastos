@@ -10,9 +10,15 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "flexbox-react": "^4.4.0",
     "prop-types": "^15.7.2",
     "react": "16.13.1",
     "react-native": "0.63.4",
+    "react-native-google-fonts": "^0.0.0",
+    "react-native-vector-icons": "^8.1.0",
     "react.pure.component": "^1.2.0"
   },
   "devDependencies": {
@@ -27,5 +33,10 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
   }
 }
