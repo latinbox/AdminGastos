@@ -24,8 +24,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
 
   },
-  plus: {
-    color: 'green',
+  valores: {
+    color: '#E9E4F0',
   },
   titulos: {
     color: '#E9E4F0',
@@ -36,11 +36,14 @@ const IncomeExpenses = () => {
     <View style={styles.container}>
       <View styles={styles.cajas}>
         <Text style={styles.titulos}>INGRESOS</Text>
-        <Icon name="plus"> $0.00</Icon>
+        <Icon name="plus" style={styles.valores}>
+          {' '}
+          $0.00
+        </Icon>
       </View>
       <View styles={styles.cajas}>
         <Text style={styles.titulos}>GASTOS</Text>
-        <Icon name="minus" styles={styles.plus}>
+        <Icon name="minus" style={styles.valores}>
           {' '}
           $0.00
         </Icon>

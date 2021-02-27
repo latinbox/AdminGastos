@@ -7,7 +7,6 @@ const styles = StyleSheet.create({
 
   },
   textstyle: {
-    fontFamily: 'Roboto-Regular',
     textAlign: 'center',
     fontSize: 15,
     marginTop: 40,

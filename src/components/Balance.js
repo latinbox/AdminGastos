@@ -6,9 +6,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'column',
-    backgroundColor: '#E9E4F0',
   },
   textos: {
+    fontFamily: 'Roboto-Regular',
     fontWeight: 'bold',
     marginTop: 9,
   },
