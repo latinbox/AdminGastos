@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
   },
   titulos: {
     color: '#E9E4F0',
+    fontSize: 12,
   },
   valormas: {
     color: '#2ecc71',

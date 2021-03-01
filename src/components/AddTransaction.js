@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
     justifyContent: 'center',
-    marginTop: -40,
+    marginTop: -50,
   },
   title: {
     textAlign: 'center',
@@ -21,13 +21,21 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#777',
     padding: 8,
-    margin: 10,
+    margin: 3,
     width: 200,
     borderRadius: 6,
   },
   button: {
-    backgroundColor: '#DDDDDD',
-    padding: 10,
+    backgroundColor: '#9c88ff',
+    padding: 11,
+    borderRadius: 6,
+    paddingLeft: 78,
+    paddingRight: 78,
+    margin: 5,
+  },
+  texto: {
+    fontSize: 12,
+    color: 'black',
   },
 });
 
@@ -52,7 +60,7 @@ const AddTransaction = () => {
           onChangeText={(val) => setAmount(val)}
         />
         <TouchableOpacity style={styles.button}>
-          <Text>Agregar</Text>
+          <Text style={styles.texto}>Agregar</Text>
         </TouchableOpacity>
       </View>
     </>
