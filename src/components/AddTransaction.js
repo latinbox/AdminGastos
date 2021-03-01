@@ -25,6 +25,10 @@ const styles = StyleSheet.create({
     width: 200,
     borderRadius: 6,
   },
+  button: {
+    backgroundColor: '#DDDDDD',
+    padding: 10,
+  },
 });
 
 const AddTransaction = () => {
@@ -44,9 +48,12 @@ const AddTransaction = () => {
           style={styles.input}
           placeholder="Ingrese cantidad"
           value={amount}
+          keyboardType="numeric"
           onChangeText={(val) => setAmount(val)}
         />
-        <TouchableOpacity placeholder="Agregar" />
+        <TouchableOpacity style={styles.button}>
+          <Text>Agregar</Text>
+        </TouchableOpacity>
       </View>
     </>
   );
