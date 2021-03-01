@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   imagen: {
-    marginTop: 60,
+    marginTop: 50,
     borderRadius: 22,
     position: 'relative',
   }
